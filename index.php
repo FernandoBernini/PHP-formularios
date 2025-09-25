@@ -16,5 +16,7 @@
 <br>
 <a href="post-form.php"> Formulário com Post</a>
 
+<a href="adivinha.php">Formulário Endereço com Post</a>
+
 </body>
 </html>

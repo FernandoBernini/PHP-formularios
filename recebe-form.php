@@ -94,26 +94,26 @@ $n1 = $_POST['n1'];
 $n2 = $_POST['n2'];
 $operacao = $_POST['operacao'];
 
-    if($operacao = "+") {
+    if($operacao = "") {
       $resultado = $n1 + $n2;
     echo " o Resultado é " . $resultado . "<br>";
 
     
     }
 
-    if($operacao = "-") {
+    elseif($operacao = "-") {
         $resultado = $n1 - $n2;
         echo " o Resultado é " . $resultado . "<br>";
 
       
       }
-      if($operacao = "*") {
+      elseif($operacao = "*") {
         $resultado = $n1 * $n2;
         echo " o Resultado é " . $resultado . "<br>";
 
       
       }
-      if($operacao = ":") {
+      elseif($operacao = ":") {
         $resultado = $n1 / $n2;
         echo " o Resultado é " . $resultado . "<br>";
 

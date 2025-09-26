@@ -26,7 +26,7 @@
     <label for="cidade" class="form-label">Cidade</label>
     <input type="text" class="form-control" id="cidade" name="cidade">
     <div class="mb-3">
-    <label for="cidade" class="form-label">Estado</label>
+    <label for="estado" class="form-label">Estado</label>
     <select id="estado" name="estado">
     <option value="AC">Acre</option>
     <option value="AL">Alagoas</option>

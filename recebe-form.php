@@ -68,4 +68,58 @@ echo "<p>Usuário mora na Rua $rua,$numero no bairro $bairro na cidade de $cidad
 }else{
     echo "<p style='color: red;'>Não veio nada por POST!</p>";
 }
+
+
+if($_SERVER['REQUEST_METHOD'] =='POST'){
+    echo "<h1>Campos enviados por POST:</h1>";
+echo "Rua: " . $_POST['rua'] . "<br>";
+echo "Número: " . $_POST['numero'] . "<br>";
+echo "Bairro: " . $_POST['bairro'] . "<br>";
+echo "Cidade: " . $_POST['cidade'] . "<br>";
+echo "Estado: " . $_POST['estado'] . "<br>";
+
+$rua = $_POST['rua'];
+$numero = $_POST['numero'];
+$bairro = $_POST['bairro'];
+$cidade = $_POST['cidade'];
+$estado = $_POST['estado'];
+
+echo "<p>Usuário mora na Rua $rua,$numero no bairro $bairro na cidade de $cidade $estado.</p>";
+
+
+}else{
+    echo "<p style='color: red;'>Não veio nada por POST!</p>";
+}
+$n1 = $_POST['n1'];
+$n2 = $_POST['n2'];
+$operacao = $_POST['operacao'];
+
+    if($operacao = "+") {
+      $resultado = $n1 + $n2;
+    echo " o Resultado é " . $resultado . "<br>";
+
+    
+    }
+
+    if($operacao = "-") {
+        $resultado = $n1 - $n2;
+        echo " o Resultado é " . $resultado . "<br>";
+
+      
+      }
+      if($operacao = "*") {
+        $resultado = $n1 * $n2;
+        echo " o Resultado é " . $resultado . "<br>";
+
+      
+      }
+      if($operacao = ":") {
+        $resultado = $n1 / $n2;
+        echo " o Resultado é " . $resultado . "<br>";
+
+      
+      }
+      
+
+
 ?>

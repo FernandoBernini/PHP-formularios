@@ -15,8 +15,10 @@
 <a href="get-form.php"> Formulário com Get</a>
 <br>
 <a href="post-form.php"> Formulário com Post</a>
-
+<br>
 <a href="adivinha.php">Formulário Endereço com Post</a>
+<br>
+<a href="calculadora.php">Calculadora PHP</a>
 
 </body>
 </html>
